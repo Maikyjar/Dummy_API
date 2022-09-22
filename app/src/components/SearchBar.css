@@ -1,0 +1,34 @@
+.searchBar {
+    display: flex;
+    align-items: center;
+}
+
+.filter {
+    color: aliceblue;
+    font-weight: normal;
+}
+
+.form {
+    margin: 5px;
+}
+
+.input {
+    border-radius: 5px;
+    margin: 3px;
+    line-height: 25px;
+    border: 2px solid aliceblue;
+}
+
+.btn-search {
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    background-color: transparent;
+    border: 2px solid aliceblue;
+    color: aliceblue;
+}
+
+.btn-search:hover {
+    background-color: aliceblue;
+    color: blue;
+}

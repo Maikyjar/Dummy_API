@@ -1,0 +1,78 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.profile {
+  display: flex;
+}
+
+.profile-name {
+  font-weight: normal;
+  font-size: large;
+  margin: 15px;
+}
+
+.comment {
+  font-weight: normal;
+}
+
+.btn-comments {
+  background-color: #4855ad;
+  color: aliceblue;
+  border-radius: 5px;
+  border: 1px solid lightblue;
+}
+
+.btn-comments:hover {
+  background-color: aliceblue;
+  color: #4855ad;
+  border-radius: 5px;
+  border: 1px solid #4855ad;
+}
+
+.btn-comments:disabled {
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  background-color: aliceblue;
+  color: black;
+}
+
+.owner-image {
+  border-radius: 20px;
+}
+
+.like {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  background-color: #4855ad;
+  color: aliceblue;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.profile-information {
+  margin: 5px;
+}
+
+.profile-item {
+  margin: 5px;
+}
+
+.profile-information-title {
+  font-weight: bold;
+}
+
+.comment-container {
+  background-color: #4855ad;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 5px;
+  color: aliceblue;
+}

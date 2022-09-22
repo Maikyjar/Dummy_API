@@ -16,6 +16,13 @@ Iniciar el proyecto con:
 
 ## Para iniciar la aplicacion ya desplegada:
 
-    
+https://social-network-9d700.web.app
 
-## Proceso para agregar cambio a la aplicacion desplegada:
+## Proceso para agregar cambios a la aplicacion desplegada:
+
+Por favor trasladarse al directorio de la app:
+- cd app
+Construir la aplicacion optimizada con:
+- npm run build
+Proceder con el despliege con:
+- firebase deploy

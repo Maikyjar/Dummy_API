@@ -1,0 +1,68 @@
+#logo {
+    margin-right: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #4855ad;
+    padding: 20px;
+}
+
+.nav-div {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    margin: 10px;
+    color: aliceblue;
+    font-weight: normal;
+}
+
+.btn-google {
+    background-color: #4855ad;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-weight: bold;
+    width: 80px;
+    border-radius: 10px;
+}
+
+.btn-google:hover {
+    background-color: #646ca1;
+}
+
+.user-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-name {
+    color: aliceblue;
+    margin: 5px;
+    font-weight: normal;
+}
+
+.user-picture {
+    width: 50px;
+    height: 50px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.logout {
+    display: flex;
+    justify-content: flex-end;
+}

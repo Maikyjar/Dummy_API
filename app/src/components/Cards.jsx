@@ -6,6 +6,7 @@ export default function Cards({post}) {
 
   return (
     <div className='cards'>
+      <div className='container'>
         {post.map(p => 
             <Card
               key={p.id}
@@ -17,6 +18,7 @@ export default function Cards({post}) {
               tags={p.tags}
             />
         )}
+      </div>
     </div>
   );
 }
